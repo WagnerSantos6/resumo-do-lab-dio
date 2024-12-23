@@ -15,6 +15,8 @@ No curso Formação Microsoft AZ-900 da DIO, aprendi os fundamentos da computaç
 **OPEX (Operational Expenditure):** Custos operacionais contínuos, como pagamento pelo uso de serviços de nuvem. Este modelo é mais previsível, facilitando o planejamento financeiro. Exemplos: contas de luz e água.
 Além disso, explorei o modelo baseado em consumo (paga-se apenas pelo que se usa), o conceito de Azure Bastions (acesso remoto seguro) e o significado de versão prévia, que são funcionalidades em fase de testes antes do lançamento oficial.
 
+---
+
 **Escalabilidade:** Aprendi como o Azure permite aumentar ou reduzir recursos automaticamente para atender às demandas, garantindo performance mesmo em picos de utilização (Crescimento vertical para atender demandas do servidor).
 
 **Elasticidade:** Entendi como alocar recursos dinamicamente, ajustando a infraestrutura conforme necessário, sem desperdício de custos (Crescimento horizontal para atender demandas de acesso. Ex: Black Friday).
@@ -25,4 +27,18 @@ Além disso, explorei o modelo baseado em consumo (paga-se apenas pelo que se us
 
 **Segurança:** Estudei as ferramentas do Azure para proteção de dados, autenticação, e gerenciamento de identidades, garantindo conformidade com normas de segurança.
 
-**SLA (Service Level Agreement):** Compreendi os níveis de serviço oferecidos pelo Azure, como métricas de disponibilidade (ex.: 99,9%), e os compromissos em caso de falhas.
+**SLA (Service Level Agreement):** Mostra os níveis de serviço oferecidos pelo Azure, como métricas de disponibilidade (ex.: 99,9%), os compromissos em caso de falhas e categoria de valores para cada faixa de disponibilidade. 
+
+---
+
+O Microsoft Azure oferece três principais modelos de serviços em nuvem que atendem a diferentes necessidades de negócios:
+
+**1. IaaS (Infrastructure as a Service)**
+É o modelo mais básico de serviços em nuvem, que fornece infraestrutura virtualizada, como servidores, armazenamento e redes, de maneira flexível e escalável.  Controle completo da infraestrutura. Ideal para administradores e desenvolvedores que precisam de flexibilidade. Contudo, impacta em maior responsabilidade de atualizações e monitoramento.
+
+**2. PaaS (Platform as a Service)**
+Fornece uma plataforma completa para desenvolvimento, execução e gerenciamento de aplicativos sem a complexidade de gerenciar infraestrutura subjacente. Inclui sistemas operacionais, servidores de banco de dados, serviços de inteligência artificial e ferramentas de desenvolvimento. Fornece ambiente de teste e implantação de aplicativos de softwares. Agilidade no desenvolvimento de software com menos preocupação com infraestrutura. Focado em desenvolvedores.
+
+**3. SaaS (Software as a Service)**
+Modelo no qual aplicativos são entregues pela internet como serviços totalmente gerenciados. O provedor cuida da infraestrutura, plataformas e software. Os usuários acessam os aplicativos diretamente via navegador ou APIs, sem a necessidade de instalação ou manutenção. O modelo de licença adquirido determina quem vê o quê. Feito por modelo de assinatura. Teams e Microsoft 365 são alguns exemplos. Se destaca pela simplicidade para os usuários finais. Soluções prontas para uso sem necessidade de gerenciamento técnico.
+
