@@ -42,3 +42,25 @@ Fornece uma plataforma completa para desenvolvimento, execução e gerenciamento
 **3. SaaS (Software as a Service)**
 Modelo no qual aplicativos são entregues pela internet como serviços totalmente gerenciados. O provedor cuida da infraestrutura, plataformas e software. Os usuários acessam os aplicativos diretamente via navegador ou APIs, sem a necessidade de instalação ou manutenção. O modelo de licença adquirido determina quem vê o quê. Feito por modelo de assinatura. Teams e Microsoft 365 são alguns exemplos. Se destaca pela simplicidade para os usuários finais. Soluções prontas para uso sem necessidade de gerenciamento técnico.
 
+---
+
+ **Pares de Região**
+As regiões do Azure são organizadas em pares de região, compostos por duas regiões dentro da mesma geografia, como Brasil Sul e EUA Leste.
+Esses pares garantem redundância e recuperação de desastres, oferecendo replicação automática de dados em serviços.
+Em caso de interrupções, o Azure prioriza a recuperação de uma região dentro do par, garantindo maior resiliência.
+
+**Grupos de Recursos**
+Um grupo de recursos é um contêiner lógico no qual os recursos do Azure (como máquinas virtuais, bancos de dados e redes) são organizados.
+Ele facilita o gerenciamento coletivo, como monitoramento, controle de custos e aplicação de políticas.
+Recursos dentro do grupo podem ser movidos ou excluídos em conjunto, simplificando a administração.
+
+**Assinatura da Azure**
+Uma assinatura é a unidade que conecta os serviços do Azure ao faturamento.
+Ela permite acessar e utilizar recursos, com o consumo sendo cobrado de acordo com o modelo escolhido.
+As assinaturas podem ser gerenciadas separadamente para diferentes projetos ou departamentos, possibilitando maior controle sobre custos e acessos.
+
+**Grupos de Gerenciamento**
+São estruturas hierárquicas que ajudam a organizar múltiplas assinaturas do Azure.
+Permitem aplicar políticas, restrições e configurações em várias assinaturas de forma centralizada.
+Útil para grandes organizações que precisam de governança em larga escala, agrupando assinaturas por departamentos ou áreas de negócio.
+
